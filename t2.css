@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-color: white;
+ }
+ 
+ h1 {
+    margin-inline: auto;
+    width: max-content;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: white;
+ }
+ 
+ .main-section {
+    width: 50rem;
+    margin-top: 4rem;
+    margin-inline: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    border-radius: 30px;
+    height: 35rem;
+    background-color: #10bc90;
+    overflow: hidden;
+ }
+ 
+ .display {
+    overflow: auto;
+    border: 3px solid white;
+    height: 23rem;
+    padding: 1rem;
+    padding-inline: 2rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+ }
+ 
+ .input-btn {
+    display: flex;
+    gap: 1rem;
+ 
+ }
+ 
+ .input-btn input {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+ }
+ 
+ .input-btn input {
+    padding: 10px;
+    width: 100%;
+ }
+ 
+ .btn-1 {
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 3px;
+    padding-inline: 20px;
+ }
+ 
+ .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+    border-radius: 11px;
+    width: 100%;
+    padding-inline: 13px;
+    padding-block: 5px;
+    padding-right: 2px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+ 
+ }
+ 
+ .list:hover {
+    scale: 1.01;
+ }
+ 
+ .content {
+    width: 35rem;
+    word-wrap: break-word;
+ }
+ 
+ .action-btns {
+    display: flex;
+    gap: 0.7rem;
+    margin-right: 1rem;
+ }
+ 
+ .space {
+    display: flex;
+    gap: 1rem;
+ }
