@@ -1,5 +1,3 @@
-# To-Do-List
-
 
 Hello👋 everyone , 
 I am excited to share that I completed my HTML and CSS Practice Project
